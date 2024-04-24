@@ -1,0 +1,22 @@
+{
+    "name": "imrancse94/adplay",
+    "description": "A simple bidder for Adplay",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adplay\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Imran Hossain",
+            "email": "imrancse94@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}

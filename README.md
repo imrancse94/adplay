@@ -20,7 +20,7 @@ After running project. Go to api testing tool like postman
 ### To generate token
 
 #### Request:
-
+````
 url: ``http://localhost:8000/token``
 method: POST
 content-type: application/json
@@ -28,23 +28,25 @@ body: {
   "username":"adplay",
   "password":"123456"
 }
+````
 
 #### Response:
-
+````
 {
   "token": "<generated-token>",
   "username": "adplay"
 }
-
+````
 ### To bid
 
 #### Request
 
+````
 url: ``http://localhost:8000/bidder``
 method: POST
 content-type: application/json
 body: go to ``<project-root>/data/bidder.json`` you will find sample json
-
+````
 #### Response
 ````
 {
